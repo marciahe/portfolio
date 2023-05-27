@@ -9,22 +9,6 @@
 
 <br />
 
----
-
-## **⏱ HORARIOS Y FECHAS**
-
-El proyecto individual tiene una duración máxima de tres semanas. Se inicia la primera semana con un Kick-Off, y se agendará una corrección personalizada la última semana.
-
-En el caso de completar todas las tareas antes de dicho lapso se podrá avisar a su instructor para coordinar una fecha de presentación del trabajo (DEMO).
-
-<br />
-
----
-
-## **⚠️ IMPORTANTE**
-
-Es necesario contar minimamente con la última versión estable de NodeJS y NPM. Asegúrate de contar con ella para poder instalar correctamente las dependecias necesarias para correr el proyecto. Actualmente las versiónes necesarias son:
-
 - **Node**: 12.18.3 o mayor
 - **NPM**: 6.14.16 o mayor
 
@@ -34,8 +18,6 @@ Para verificar que versión tienes instalada:
 node -v
 npm -v
 ```
-
-**ACLARACIÓN:** las dependencias actuales se encuentran en las versiones que venimos trabajando durante el bootcamp.
 
 - **react**: 17.0.1
 - **react-dom**: 17.0.1
