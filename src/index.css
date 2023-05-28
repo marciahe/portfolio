@@ -1,16 +1,20 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
-@import "tailwindcss/base";
+/* @import "tailwindcss/base";
 @import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@import "tailwindcss/utilities"; */
 
-body {
-  background: #333;
+.logoMarcia {
+  font-family: "Anton", sans-serif;
+  font-size: 32px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.logoMarcia span {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 100%;
+  display: inline-block;
+  margin-left: 2px;
 }
