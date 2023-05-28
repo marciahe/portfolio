@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Boilerplate</h1>
+      <h1 className="text-3xl font-bold underline">Boilerplate</h1>
       <img
         src="https://i.giphy.com/media/1NYkJ0wTvncdXV5dN5/giphy.webp"
         alt="Happy coding"
