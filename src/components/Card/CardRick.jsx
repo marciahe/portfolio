@@ -1,10 +1,10 @@
-export default function Card() {
+export default function CardRick() {
   return (
     <>
       <div className=" rounded overflow-hidden shadow-lg inline-block">
         <img
           className="w-full"
-          src="https://images.unsplash.com/photo-1682687220509-61b8a906ca19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+          src="https://i.imgur.com/4iBqTE8.png"
           alt="Sunset in the mountains"
         />
         <div className="px-6 py-4">
