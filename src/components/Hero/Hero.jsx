@@ -43,9 +43,11 @@ export default function Hero() {
               With strong UX and Product background
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              I've worked for more than 10 years in the digital industry. From
+              my early days in UX to my transition into product management, and
+              now fully embracing the exhilarating world of development. Check
+              my last project and leave a comment I'm an early adopter and would
+              love to hear about what you're building.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

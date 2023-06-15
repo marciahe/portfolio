@@ -1,28 +1,21 @@
-export default function CardDoggies() {
+export default function Card(props) {
   return (
     <>
-      <div className=" rounded overflow-hidden shadow-lg inline-block">
-        <img
-          className="w-full"
-          src="https://i.imgur.com/4iBqTE8.png"
-          alt="Sunset in the mountains"
-        />
+      <div className="rounded overflow-hidden shadow-lg inline-block">
+        <img className="w-full" src={props.img} alt={props.imgAlt} />
         <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">Doggies</div>
-          <p className="text-gray-700 text-base">
-            Single Page Aplication that calls the dogs API and create a list of
-            doggies. You can create your own dog too!
-          </p>
+          <div className="font-bold text-xl mb-2">{props.title}</div>
+          <p className="text-gray-700 text-base">{props.description}</p>
         </div>
         <div className="px-6 pt-4 pb-2">
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #react
+            {props.chip1}
           </span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #node
+            {props.chip2}
           </span>
           <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #sequelize
+            {props.chip3}
           </span>
         </div>
       </div>

@@ -7,6 +7,16 @@ export default function Footer() {
       >
         CV
       </a>
+      <a
+        target="_blank"
+        href="https://icons8.com/icon/ttxR7mXaDvqS/styled-components"
+      >
+        Styled Components
+      </a>{" "}
+      icon by{" "}
+      <a target="_blank" href="https://icons8.com">
+        Icons8
+      </a>
     </footer>
   );
 }
