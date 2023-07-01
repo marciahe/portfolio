@@ -51,12 +51,14 @@ export default function Example() {
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Projects
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             CV
+          </a> */}
+          <a href="#contact">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              Contact me!
+            </button>
           </a>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-            Contact me!
-          </button>
         </Popover.Group>
       </nav>
       <Dialog
@@ -92,12 +94,12 @@ export default function Example() {
                 >
                   Projects
                 </a>
-                <a
+                {/* <a
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   CV
-                </a>
+                </a> */}
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                   Contact me!
                 </button>
