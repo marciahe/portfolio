@@ -18,19 +18,6 @@ export default function CardsContainer() {
           chip3="#sequelize"
         />
       </a>
-      <a href="https://holocruxe-marciahe.vercel.app/" target="_blank">
-        <Card
-          img="https://i.imgur.com/afPFI3s.png"
-          imgAlt="Holocruxe Landing page"
-          title="Holocruxe landing page"
-          description="Landing page for the new startup Holocruxe. An AI that keeps all
-              your memories so you can leave a legacy online. Try the 3d model of
-              your own face!"
-          chip1="#javascript"
-          chip2="#three.js"
-          chip3="#html/css"
-        />
-      </a>
 
       <a href="https://rick-morty-orpin-beta.vercel.app/" target="_blank">
         <Card
@@ -42,6 +29,20 @@ export default function CardsContainer() {
           chip1="#react"
           chip2="#node"
           chip3="#redux"
+        />
+      </a>
+
+      <a href="https://holocruxe-marciahe.vercel.app/" target="_blank">
+        <Card
+          img="https://i.imgur.com/afPFI3s.png"
+          imgAlt="Holocruxe Landing page"
+          title="Holocruxe landing page"
+          description="Landing page for the new startup Holocruxe. An AI that keeps all
+              your memories so you can leave a legacy online. Try the 3d model of
+              your own face!"
+          chip1="#javascript"
+          chip2="#three.js"
+          chip3="#html/css"
         />
       </a>
     </div>
