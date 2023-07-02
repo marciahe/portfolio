@@ -5,6 +5,7 @@ import CardsContainer from "../../components/CardsContainer/CardsContainer";
 import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 import Stack from "../../components/Stack/Stack";
+import Contact from "../../components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       </div>
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <Stack />
+      </div>
+      <div className="relative isolate px-6 pt-14 lg:px-8">
+        <Contact />
       </div>
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <Footer></Footer>
