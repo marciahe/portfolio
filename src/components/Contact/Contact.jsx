@@ -1,15 +1,9 @@
-import styles from "./Contact.module.css";
+import Button from "../Button/Button";
 
-export default function Button() {
+export default function Contact() {
   return (
-    <div className={styles.buttonContainer}>
-      <a
-        href="https://www.linkedin.com/in/marciaht/"
-        target="_blank"
-        className={styles.buttonCool}
-      >
-        Contact me through Linkedin!
-      </a>
+    <div>
+      <Button />
     </div>
   );
 }
