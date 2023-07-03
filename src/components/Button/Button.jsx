@@ -5,7 +5,7 @@ export default function Button(props) {
     <a
       href="https://www.linkedin.com/in/marciaht/"
       target="_blank"
-      className={styles.buttonCool}
+      className={`${styles.buttonCool} ${props.px} ${props.py}`}
     >
       {props.label}
     </a>

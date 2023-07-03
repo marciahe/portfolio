@@ -7,7 +7,7 @@
   --pink-border: #b18597;
   --pink-shadow: #ffe3e2;
 }
-/* .buttonContainer {
+.buttonContainer {
   align-items: center;
   letter-spacing: 0.1rem;
   flex-direction: column;
@@ -15,7 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+
+  justify-content: center;
+  text-align: center;
+}
 
 .buttonCool {
   z-index: 3;
@@ -31,8 +34,6 @@
   color: #382b22;
   text-transform: uppercase;
   /* padding: 1.25em 2em; */
-  height: 100%;
-  width: 100%;
   background: var(--light-pink);
   border: 2px solid var(--pink-border);
   border-radius: 0.75em;

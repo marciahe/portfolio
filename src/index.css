@@ -6,6 +6,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities"; */
 
+html {
+  scroll-behavior: smooth;
+}
 .logoMarcia {
   font-family: "Anton", sans-serif;
   font-size: 32px;

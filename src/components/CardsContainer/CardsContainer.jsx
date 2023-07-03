@@ -2,7 +2,7 @@ import Card from "../Card/Card";
 
 export default function CardsContainer() {
   return (
-    <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 ">
+    <div id="projects" className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 ">
       <a
         href="https://dogs-frontend-day8s0dbb-marciahe.vercel.app/"
         target="_blank"

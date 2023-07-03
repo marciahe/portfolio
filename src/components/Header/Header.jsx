@@ -48,12 +48,15 @@ export default function Example() {
             </button>
           </div> */}
 
-        <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+        <Popover.Group className="sm:flex lg:gap-x-12">
+          <a
+            href="#projects"
+            className="cursor-pointer z-10 lg:flex hidden text-sm font-semibold leading-6 text-gray-900 hover:text-red-400 duration-300"
+          >
             Projects
           </a>
-          <div className="w-11 h-28">
-            <Button label="Linkedin" />
+          <div className="buttonContainer">
+            <Button px="px-5" py="py-2" label="Linkedin" />
           </div>
         </Popover.Group>
       </nav>
