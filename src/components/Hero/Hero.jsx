@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="bg-white">
       <div className="relative isolate px-6 pt-4 lg:px-8">
         <div
-          className="z-0 absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+          className="z-0 absolute inset-x-0 -top-40 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
         >
           <div
@@ -46,11 +46,11 @@ export default function Hero() {
               I've worked for more than 10 years in the digital industry. From
               my early days in UX to my transition into product management, and
               now fully embracing the exhilarating world of development. Check
-              my last project and leave a comment I'm an early adopter and would
-              love to hear about what you're building.
+              my last projects and reach out through Linkedin, I would love to
+              hear about what you're building.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
+              {/* <a
                 href="#"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
@@ -61,7 +61,7 @@ export default function Hero() {
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Learn more <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
