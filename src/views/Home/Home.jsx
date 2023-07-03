@@ -16,13 +16,13 @@ export default function Home() {
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <CardsContainer></CardsContainer>
       </div>
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate px-6 pt-32 lg:px-8">
         <Stack />
       </div>
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate pt-32">
         <Contact />
       </div>
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate px-6 lg:px-8 bg-yellow-50">
         <Footer></Footer>
       </div>
     </div>

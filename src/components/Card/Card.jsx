@@ -1,7 +1,7 @@
 export default function Card(props) {
   return (
     <>
-      <div className="rounded overflow-hidden shadow-lg inline-block">
+      <div className="rounded overflow-hidden shadow-lg inline-block transform transition duration-500 hover:scale-105">
         <img className="w-full" src={props.img} alt={props.imgAlt} />
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2">{props.title}</div>

@@ -20,8 +20,8 @@ export default function Stack() {
     "./logos/adobe.png",
   ];
   return (
-    <div className="py-24 bg-white">
-      <div className="container m-auto px-6 space-y-8 md:px-32 lg:px-48">
+    <div className="py-24s bg-white">
+      <div className="container m-auto px-6 space-y-8 lg:px-48">
         <div className="m-auto text-center lg:w-7/12">
           <h2 className="text-3xl text-gray-700 font-bold md:text-3xl">
             My Tech Stack

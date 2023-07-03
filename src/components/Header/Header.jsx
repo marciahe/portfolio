@@ -14,6 +14,7 @@ import {
   PhoneIcon,
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
+import Button from "../Button/Button";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -36,32 +37,27 @@ export default function Example() {
             </p>
           </a>
         </div>
-        <div className="flex lg:hidden">
+        {/* <div className="flex lg:hidden">
           <button
-            type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-            onClick={() => setMobileMenuOpen(true)}
+          type="button"
+          className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+          onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-          </button>
-        </div>
+            </button>
+          </div> */}
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Projects
           </a>
-          {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            CV
-          </a> */}
-          <a href="#contact">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-              Contact me!
-            </button>
-          </a>
+          <div className="w-11 h-28">
+            <Button label="Linkedin" />
+          </div>
         </Popover.Group>
       </nav>
-      <Dialog
+      {/* <Dialog
         as="div"
         className="lg:hidden"
         open={mobileMenuOpen}
@@ -94,12 +90,6 @@ export default function Example() {
                 >
                   Projects
                 </a>
-                {/* <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  CV
-                </a> */}
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                   Contact me!
                 </button>
@@ -107,7 +97,7 @@ export default function Example() {
             </div>
           </div>
         </Dialog.Panel>
-      </Dialog>
+      </Dialog> */}
     </header>
   );
 }
