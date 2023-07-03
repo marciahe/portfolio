@@ -3,12 +3,15 @@ import Card from "../Card/Card";
 export default function CardsContainer() {
   return (
     <>
-      <h2 className="text-3xl text-gray-700 font-bold md:text-3xl text-center p-8">
+      <h2
+        id="projects"
+        className="text-3xl text-gray-700 font-bold md:text-3xl text-center p-8"
+      >
         {" "}
         My last projects
       </h2>
 
-      <div id="projects" className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 ">
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 ">
         <a
           href="https://dogs-frontend-day8s0dbb-marciahe.vercel.app/"
           target="_blank"
