@@ -29,15 +29,8 @@ export default function Stack() {
           <h3>This is how I roll</h3>
         </div>
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
-          {/* <div class="p-4">
-            <img
-              src="https://tailus.io/sources/blocks/company-site/preview/images/clients/airbnb.svg"
-              class=""
-              alt=""
-            ></img>
-          </div> */}
           {images.map((image, index) => (
-            <div key={index} className="p-4">
+            <div key={index} className="p-4 mx-auto">
               <img src={image} className="w-32" alt={image} />
               <p className="text-center capitalize">
                 {image.replace("./logos/", "").split(".")[0]}
