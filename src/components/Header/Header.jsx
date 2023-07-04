@@ -1,36 +1,22 @@
-import { Fragment, useState } from "react";
-import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
+// import { useState } from "react";
+import { Popover } from "@headlessui/react";
 import Button from "../Button/Button";
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+// function classNames(...classes) {
+//   return classes.filter(Boolean).join(" ");
+// }
 
 export default function Example() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  // const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
+    <header id="header" className="bg-white">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="#header" className="-m-1.5 p-1.5">
             <span className="sr-only">Marcia Hernández</span>
             <p className="logoMarcia">
               marcia<span> </span>
@@ -51,7 +37,7 @@ export default function Example() {
         <Popover.Group className="sm:flex lg:gap-x-12">
           <a
             href="#projects"
-            className="cursor-pointer z-10 lg:flex hidden text-sm font-semibold leading-6 text-gray-900 hover:text-red-400 duration-300"
+            className="cursor-pointer z-10 lg:flex hidden text-sm font-semibold leading-6 text-gray-900 hover:text-red-400 duration-300 py-3"
           >
             Projects
           </a>

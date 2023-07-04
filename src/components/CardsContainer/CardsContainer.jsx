@@ -5,16 +5,18 @@ export default function CardsContainer() {
     <>
       <h2
         id="projects"
-        className="text-3xl text-gray-700 font-bold md:text-3xl text-center p-8"
+        className="text-3xl text-gray-700 font-bold md:text-3xl text-center"
       >
         {" "}
         My last projects
       </h2>
+      <p className="text-center mb-12">Test them by yourself!</p>
 
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 ">
         <a
           href="https://dogs-frontend-day8s0dbb-marciahe.vercel.app/"
           target="_blank"
+          rel="noreferrer"
         >
           <Card
             img="https://i.imgur.com/4iBqTE8.png"
@@ -28,7 +30,11 @@ export default function CardsContainer() {
           />
         </a>
 
-        <a href="https://rick-morty-orpin-beta.vercel.app/" target="_blank">
+        <a
+          href="https://rick-morty-orpin-beta.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <Card
             img="https://i.imgur.com/1FhCs1D.png"
             imgAlt="Rick and morty cards"
@@ -41,7 +47,11 @@ export default function CardsContainer() {
           />
         </a>
 
-        <a href="https://holocruxe-marciahe.vercel.app/" target="_blank">
+        <a
+          href="https://holocruxe-marciahe.vercel.app/"
+          target="_blank "
+          rel="noreferrer"
+        >
           <Card
             img="https://i.imgur.com/afPFI3s.png"
             imgAlt="Holocruxe Landing page"
