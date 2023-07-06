@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link id="favicon" rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link id="favicon" rel="icon" href="./favicon2.ico" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -31,6 +32,19 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Marcia Hernández | Frontend Developer</title>
+    <script>
+      var activeTitle = document.title;
+      const activeFavicon = "%PUBLIC_URL%/favicon.ico";
+      window.onblur = function () {
+        document.title = "Don't forget me!";
+        document.querySelector("#favicon").href = "./favicon2.ico";
+      };
+
+      window.onfocus = function () {
+        document.title = activeTitle;
+        document.querySelector("#favicon").href = activeFavicon;
+      };
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
