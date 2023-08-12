@@ -21,7 +21,7 @@ export default function CardsContainer() {
           <Card
             img="https://i.imgur.com/4iBqTE8.png"
             imgAlt="Doggies app"
-            title="Rick and Morty cards"
+            title="The Doggies app"
             description="Single Page Aplication that calls the dogs API and create a list of
             doggies. You can create your own dog too!"
             chip1="#react"
