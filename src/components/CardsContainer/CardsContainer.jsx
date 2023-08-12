@@ -48,6 +48,22 @@ export default function CardsContainer() {
         </a>
 
         <a
+          href="https://kubik.mx/sobre-kubik"
+          target="_blank "
+          rel="noreferrer"
+        >
+          <Card
+            img="https://i.imgur.com/K8kFvED.png"
+            imgAlt="Kubik webpage"
+            title="Kubik website"
+            description="Kubik is a digital agency where I collaborated in the creation of their website, blending innovation and creativity to craft an impactful online presence."
+            chip1="#javascript"
+            chip2="#html"
+            chip3="#css"
+          />
+        </a>
+
+        {/* <a
           href="https://holocruxe-marciahe.vercel.app/"
           target="_blank "
           rel="noreferrer"
@@ -61,7 +77,7 @@ export default function CardsContainer() {
             chip2="#three.js"
             chip3="#html/css"
           />
-        </a>
+        </a> */}
       </div>
     </>
   );
